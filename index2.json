@@ -2,6 +2,7 @@
 
 {
 	"index":2,
-	"Phone brand":"Samsung",
-	"Name": "Galaxy note3"
+	"PhoneBrand":"Samsung",
+	"Name": "Galaxy note3",
+	"Description": "test test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test test"
 }

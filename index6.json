@@ -2,6 +2,7 @@
 
 {
 	"index":6,
-	"Phone brand":"Nokia",
-	"Name": "Lumia"
+	"PhoneBrand":"Nokia",
+	"Name": "Lumia",
+	"Description": "test test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test test"
 }

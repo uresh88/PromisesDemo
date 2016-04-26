@@ -2,6 +2,7 @@
 
 {
 	"index":4,
-	"Phone brand":"Samsung",
-	"Name": "Galaxy J1"
+	"PhoneBrand":"Samsung",
+	"Name": "Galaxy J1",
+	"Description": "test test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test testtest test test"
 }
