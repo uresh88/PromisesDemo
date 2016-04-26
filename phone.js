@@ -11,8 +11,6 @@ app.controller("phoneDetailsController", ['$scope', '$http', function($scope, $h
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index5.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index6.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index7.json',
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index6.json',
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index7.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index8.json',
 					];
 

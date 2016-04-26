@@ -12,17 +12,14 @@ app.controller("phoneDetailsController", ['$scope', '$http', '$q', function($sco
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index6.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index7.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index8.json',
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index6.json',
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index7.json',
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index8.json',
 					];
 
 	$scope.init = function(){
 		phoneList.forEach(mapPhoneDetail);
 	} 
-
+	var promise = $q.resolve();
 	var mapPhoneDetail = function(url){
-		var promise = $q.resolve();
+		
 
 		promise = promise.then(function(){
 			return getPhoneDetails(url)
