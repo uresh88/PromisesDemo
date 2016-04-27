@@ -10,6 +10,21 @@
 
 </head>
 <body ng-app="phoneDetail" >
-  <div ng-controller='phoneDetailsController' ng-init='init()' ></div>
+  <div ng-controller='phoneDetailsController' ng-init='init()' >
+  	<table>
+  	  <tr style="background: rosybrown;">
+	    <td style="width: 1%;" >Index</td>
+	    <td style="width: 5%;" >Brand Name</td> 
+	    <td style="width: 5%;" >Phone Name</td>
+	    <td style="width: 20%;" >Phone Description</td>
+	  </tr>
+	  <tr ng-repeat="phone in phoneDetailList track by $index">
+	    <td style="width: 1%;" >{{ phone.index }}</td>
+	    <td style="width: 5%;" >{{ phone.PhoneBrand }}</td>
+	    <td style="width: 5%;" >{{ phone.Name }}</td>
+	    <td style="width: 20%;" >{{ phone.Description }}</td>
+	  </tr>
+	</table>
+  </div>
 </body>
 </html>

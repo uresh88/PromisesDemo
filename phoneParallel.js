@@ -25,7 +25,6 @@ app.controller("phoneDetailsController", ['$scope', '$http', '$q', function($sco
 			return getPhoneDetails(url)
 		}).then(function(phone){
 			$scope.phoneDetailList.push(phone);
-			console.log($scope.phoneDetailList);
 		})
 		
 	}
