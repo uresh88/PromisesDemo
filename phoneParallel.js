@@ -24,12 +24,8 @@ app.controller("phoneDetailsController", ['$scope', '$http', '$q', function($sco
 		promise = promise.then(function(){
 			return getPhoneDetails(url)
 		}).then(function(phone){
-			 return {
-						"index":-1,
-						"PhoneBrand":"undefined",
-						"Name": "undefined",
-						"Description": "Error fetching the data"
-					}
+			$scope.phoneDetailList.push(phone);
+			 
 		})
 		
 	}
