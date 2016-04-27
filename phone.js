@@ -4,7 +4,7 @@ var app = angular.module("phoneDetail", []);
 
 app.controller("phoneDetailsController", ['$scope', '$http', function($scope, $http) {
 	var phoneList = [
-						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index1.json',
+						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index111.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index2.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index3.json',
 						'https://raw.githubusercontent.com/uresh88/PromisesDemo/master/index4.json',
@@ -36,7 +36,12 @@ app.controller("phoneDetailsController", ['$scope', '$http', function($scope, $h
           .then(function(response) {
            return response.data;
           }, function(response) {
-           return null;
+           return {
+						"index":-1,
+						"PhoneBrand":"undefined",
+						"Name": "undefined",
+						"Description": "Error fetching the data"
+					}
         });
 	}
 
