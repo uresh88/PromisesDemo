@@ -10,6 +10,15 @@
 
 </head>
 <body ng-app="phoneDetail" >
-  <div ng-controller='phoneDetailsController' ng-init='init()' ></div>
+  <div ng-controller='phoneDetailsController' ng-init='init()' >
+  	<table>
+	  <tr ng-repeat="phone in phoneDetailList">
+	    <td>{{ phone.index }}</td>
+	    <td>{{ phone.PhoneBrand }}</td>
+	    <td>{{ phone.Name }}</td>
+	    <td>{{ phone.Description }}</td>
+	  </tr>
+	</table>
+  </div>
 </body>
 </html>
