@@ -12,7 +12,7 @@
 <body ng-app="phoneDetail" >
   <div ng-controller='phoneDetailsController' ng-init='init()' >
   	<table>
-	  <tr ng-repeat="phone in phoneDetailList">
+	  <tr ng-repeat="phone in phoneDetailList track by $index">
 	    <td>{{ phone.index }}</td>
 	    <td>{{ phone.PhoneBrand }}</td>
 	    <td>{{ phone.Name }}</td>
